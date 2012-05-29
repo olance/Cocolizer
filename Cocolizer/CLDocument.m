@@ -2,8 +2,7 @@
 //  CLDocument.m
 //  Cocolizer
 //
-//  Created by lacie on 28/05/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Created by Olivier Lance on 28/05/12.
 //
 
 #import "CLDocument.h"
@@ -12,17 +11,16 @@
 
 - (id)init
 {
-    self = [super init];
-    if (self) {
-        // Add your subclass-specific initialization here.
+    if((self = [super init]))
+    {
+        
     }
+    
     return self;
 }
 
 - (NSString *)windowNibName
 {
-    // Override returning the nib file name of the document
-    // If you need to use a subclass of NSWindowController or if your document supports multiple NSWindowControllers, you should remove this method and override -makeWindowControllers instead.
     return @"CLDocument";
 }
 

@@ -24,6 +24,9 @@
 		47014BCA15742801001D5EAF /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 47014BC915742801001D5EAF /* main.c */; };
 		47014BCC15742801001D5EAF /* GetMetadataForFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 47014BCB15742801001D5EAF /* GetMetadataForFile.m */; };
 		47014BCF15742801001D5EAF /* MySpotlightImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 47014BCE15742801001D5EAF /* MySpotlightImporter.m */; };
+		47014BDC15743687001D5EAF /* CLDocumentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47014BDB15743686001D5EAF /* CLDocumentController.m */; };
+		47014BE0157439C4001D5EAF /* CLCreatingAssistantWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47014BDE157439C3001D5EAF /* CLCreatingAssistantWindowController.m */; };
+		47014BE1157439C4001D5EAF /* CLCreatingAssistantWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47014BDF157439C4001D5EAF /* CLCreatingAssistantWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,12 +45,12 @@
 		47014B9815742801001D5EAF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		47014B9915742801001D5EAF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		47014B9A15742801001D5EAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		47014B9D15742801001D5EAF /* Cocolizer-Info.plist */ = {isa = PBXFileReference; path = "Cocolizer-Info.plist"; sourceTree = "<group>"; };
+		47014B9D15742801001D5EAF /* Cocolizer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cocolizer-Info.plist"; sourceTree = "<group>"; };
 		47014B9F15742801001D5EAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		47014BA115742801001D5EAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		47014BA315742801001D5EAF /* Cocolizer-Prefix.pch */ = {isa = PBXFileReference; path = "Cocolizer-Prefix.pch"; sourceTree = "<group>"; };
+		47014BA315742801001D5EAF /* Cocolizer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cocolizer-Prefix.pch"; sourceTree = "<group>"; };
 		47014BA515742801001D5EAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		47014BA715742801001D5EAF /* CLDocument.h */ = {isa = PBXFileReference; path = CLDocument.h; sourceTree = "<group>"; };
+		47014BA715742801001D5EAF /* CLDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLDocument.h; sourceTree = "<group>"; };
 		47014BA815742801001D5EAF /* CLDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLDocument.m; sourceTree = "<group>"; };
 		47014BAB15742801001D5EAF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CLDocument.xib; sourceTree = "<group>"; };
 		47014BAE15742801001D5EAF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -57,14 +60,20 @@
 		47014BBD15742801001D5EAF /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		47014BBF15742801001D5EAF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		47014BC115742801001D5EAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		47014BC515742801001D5EAF /* CocolizerImporter-Info.plist */ = {isa = PBXFileReference; path = "CocolizerImporter-Info.plist"; sourceTree = "<group>"; };
+		47014BC515742801001D5EAF /* CocolizerImporter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocolizerImporter-Info.plist"; sourceTree = "<group>"; };
 		47014BC715742801001D5EAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		47014BC915742801001D5EAF /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		47014BCB15742801001D5EAF /* GetMetadataForFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetMetadataForFile.m; sourceTree = "<group>"; };
-		47014BCD15742801001D5EAF /* MySpotlightImporter.h */ = {isa = PBXFileReference; path = MySpotlightImporter.h; sourceTree = "<group>"; };
+		47014BCD15742801001D5EAF /* MySpotlightImporter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySpotlightImporter.h; sourceTree = "<group>"; };
 		47014BCE15742801001D5EAF /* MySpotlightImporter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySpotlightImporter.m; sourceTree = "<group>"; };
-		47014BD015742801001D5EAF /* Importer Read Me.txt */ = {isa = PBXFileReference; path = "Importer Read Me.txt"; sourceTree = "<group>"; };
-		47014BD115742801001D5EAF /* CocolizerImporter-Prefix.pch */ = {isa = PBXFileReference; path = "CocolizerImporter-Prefix.pch"; sourceTree = "<group>"; };
+		47014BD015742801001D5EAF /* Importer Read Me.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Importer Read Me.txt"; sourceTree = "<group>"; };
+		47014BD115742801001D5EAF /* CocolizerImporter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CocolizerImporter-Prefix.pch"; sourceTree = "<group>"; };
+		47014BDA15743686001D5EAF /* CLDocumentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLDocumentController.h; sourceTree = "<group>"; };
+		47014BDB15743686001D5EAF /* CLDocumentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLDocumentController.m; sourceTree = "<group>"; };
+		47014BDD157439C3001D5EAF /* CLCreatingAssistantWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLCreatingAssistantWindowController.h; sourceTree = "<group>"; };
+		47014BDE157439C3001D5EAF /* CLCreatingAssistantWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLCreatingAssistantWindowController.m; sourceTree = "<group>"; };
+		47014BDF157439C4001D5EAF /* CLCreatingAssistantWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLCreatingAssistantWindowController.xib; sourceTree = "<group>"; };
+		47014BE215743CE2001D5EAF /* CLCreatingAssistantDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLCreatingAssistantDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +150,12 @@
 				47014BAD15742801001D5EAF /* MainMenu.xib */,
 				47014BB015742801001D5EAF /* CLDocument.xcdatamodeld */,
 				47014B9C15742801001D5EAF /* Supporting Files */,
+				47014BDA15743686001D5EAF /* CLDocumentController.h */,
+				47014BDB15743686001D5EAF /* CLDocumentController.m */,
+				47014BDD157439C3001D5EAF /* CLCreatingAssistantWindowController.h */,
+				47014BDE157439C3001D5EAF /* CLCreatingAssistantWindowController.m */,
+				47014BDF157439C4001D5EAF /* CLCreatingAssistantWindowController.xib */,
+				47014BE215743CE2001D5EAF /* CLCreatingAssistantDelegate.h */,
 			);
 			path = Cocolizer;
 			sourceTree = "<group>";
@@ -255,6 +270,7 @@
 				47014BAC15742801001D5EAF /* CLDocument.xib in Resources */,
 				47014BAF15742801001D5EAF /* MainMenu.xib in Resources */,
 				47014BBA15742801001D5EAF /* CocolizerImporter.mdimporter in Resources */,
+				47014BE1157439C4001D5EAF /* CLCreatingAssistantWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +292,8 @@
 				47014BA215742801001D5EAF /* main.m in Sources */,
 				47014BA915742801001D5EAF /* CLDocument.m in Sources */,
 				47014BB215742801001D5EAF /* CLDocument.xcdatamodeld in Sources */,
+				47014BDC15743687001D5EAF /* CLDocumentController.m in Sources */,
+				47014BE0157439C4001D5EAF /* CLCreatingAssistantWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +365,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -358,14 +376,13 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.7;
 			};
 			name = Debug;
 		};
@@ -373,18 +390,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.7;
 			};
 			name = Release;
 		};

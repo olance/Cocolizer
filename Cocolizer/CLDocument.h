@@ -2,12 +2,15 @@
 //  CLDocument.h
 //  Cocolizer
 //
-//  Created by lacie on 28/05/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Created by Olivier Lance on 28/05/12.
 //
 
 #import <Cocoa/Cocoa.h>
 
 @interface CLDocument : NSPersistentDocument
+{
+
+}
+
 
 @end
